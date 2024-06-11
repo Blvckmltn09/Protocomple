@@ -10,8 +10,11 @@ const index = () => {
                 <Link href={"/"} className="">Productos</Link>
                 <Link href={"/"} className="">Servicios</Link>
                 <Link href={"/"} className="align-middle">Contacto</Link>
-                <Link href={"/"} className="bg-red-500 rounded-full px-6 py-1">Login</Link>
             </nav>
+            <div>
+            <Link href={"/login"} className="bg-red-600 text-white rounded-full px-5 py-1">Login</Link>
+            <Link href={"/registro"} className="bg-red-600 text-white rounded-full px-5 py-1">Registrarse</Link>
+            </div>
         </header>
     )
 }
